@@ -1,0 +1,136 @@
+.list-picture{
+    padding: 40px 0 55px;
+}
+.list-picture ul.tab-menu{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.list-picture ul.tab-menu li{
+    display: inline-block;
+}
+.list-picture ul.tab-menu li a{
+    color: #006cd9;
+    padding: 10px 12px;
+    text-align: center;
+    border: 1px solid #006cd9;
+    font-size: 25px;
+    font-family: "UTM Avo";
+    display: inline-block;
+    margin-right: 8px;
+}
+.list-picture ul.tab-menu li a.active{
+    background: #006cd9;
+    color: #fff;
+}
+.list-picture ul.tab-menu li a:hover{
+    background: #006cd9;
+    color: #fff;
+    text-decoration: none;
+}
+.list-picture .col-md-3{
+    padding: 0;
+}
+.list-picture .picture-item, .list-picture a.thumb-product-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+}
+.list-picture a.thumb-product-img img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+
+header{
+    position: static;
+}
+.header-top{
+    background: #222222;
+}
+
+.header-bottom{
+    background: #447fba;
+}
+.header-contact{
+    width: 30%;
+}
+.header-language{
+    width: 70%;
+}
+.header-language a{
+    color: #fff;
+}
+.header-language a span{
+    padding-right: 5px;
+}
+.header-language a.for-agency{
+    background: #1a64ae;
+    padding: 6px 8px;
+    margin-right: 32px;
+}
+ul.main-menu li a{
+    color: #fff;
+}
+
+.form-search{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.logo-right{
+    padding-top: 30px;
+}
+.form-search input{
+    border: none;
+    width: 85%;
+    background: #447fba;
+    border: 1px solid #fff;
+    color: #fff;
+    font-style: italic;
+    font-size: 13px;
+    padding: 2px;
+}
+.form-search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #447fba;
+    border: 1px solid #fff;
+    padding: 1px;
+}
+.form-search button a {
+    color: #fff;
+    font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+footer{
+    background: #1a64ae;
+
+}
+footer p, footer .back-to-top a span{
+    color: #fff;
+
+}
+footer .back-to-top a{
+    border: 1px solid #fff;
+}

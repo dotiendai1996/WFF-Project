@@ -1,0 +1,201 @@
+
+.about-us-form{
+    padding: 40px 0 100px;
+    text-align: center;
+}
+
+.about-us-form .title{
+    text-align: center;
+    margin-bottom: 38px;
+}
+.about-us-form .title h2{
+    font-size: 40px;
+    color: #616060;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-weight: 400;
+}
+.about-us-form p{
+    font-size: 15px;
+    font-family: "UTM Avo";
+    line-height: 30px;
+    font-style: italic;
+    color: #666666;
+}
+.about-us-form .content{
+    padding-bottom: 37px;
+}
+
+.mission-item-us{
+    position: relative;
+    padding: 22px 10px 52px;
+    background: #e5e5e5;
+    margin-bottom: 52px;
+    text-align: center;
+    top: 0;
+    z-index: 5;
+    transition: 0.4s;
+}
+.mission-us .col-md-4:nth-child(2n) .mission-item-us{
+    padding: 22px 20px 52px;
+}
+.mission-item-us.active{
+    background: #006cd9;
+    top: -75px;
+    padding-bottom: 127px!important;
+
+}
+.mission-item.active h3, .mission-item.active p, .mission-item.active a{
+    color: #fff;
+}
+/*.mission-item-us:hover{
+    background: #006cd9;
+    top: -75px;
+    padding-bottom: 127px!important;
+
+}
+.mission-item-us:hover h3, .mission-item-us:hover p, .mission-item-us:hover a{
+    color: #fff;
+}*/
+.mission-item-us .thumbnail-circle-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.mission-item-us .thumbnail-circle-img img{
+    max-width: 100%;
+    height: auto;
+}
+.mission-item-us h3{
+    font-size: 20px;
+    line-height: 16px;
+    color: #666666;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.mission-item-us.active h3 {
+    color: #fff;
+}
+.mission-item-us p{
+    font-size: 15px;
+    margin-bottom: 38px;
+    line-height: 18px;
+    color: #666666;
+}
+
+.mission-item-us.active p {
+    color: #fff;
+}
+.mission-item-us a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    /* color: #666666; */
+    text-decoration: underline;
+    /* background: #1a64ae; */
+    /* padding: 12px 35px; */
+}
+.mission-item-us.active a{
+    /* background: #222222; */
+    color: #fff;
+}
+.mission-item-us a span{
+    color: #666666;
+}
+
+.mission-item-us.active a span {
+    color: #fff;
+}
+
+
+header{
+    position: static;
+}
+.header-top{
+    background: #222222;
+}
+
+.header-bottom{
+    background: #447fba;
+}
+.header-contact{
+    width: 30%;
+}
+.header-language{
+    width: 70%;
+}
+.header-language a{
+    color: #fff;
+}
+.header-language a span{
+    padding-right: 5px;
+}
+.header-language a.for-agency{
+    background: #1a64ae;
+    padding: 6px 8px;
+    margin-right: 32px;
+}
+ul.main-menu li a{
+    color: #fff;
+}
+
+.form-search{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.logo-right{
+    padding-top: 30px;
+}
+.form-search input{
+    border: none;
+    width: 85%;
+    background: #447fba;
+    border: 1px solid #fff;
+    color: #fff;
+    font-style: italic;
+    font-size: 13px;
+    padding: 2px;
+}
+.form-search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #447fba;
+    border: 1px solid #fff;
+    padding: 1px;
+}
+.form-search button a {
+    color: #fff;
+    font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+footer{
+    background: #006cd9;
+}
+footer p, footer .back-to-top a span{
+    color: #fff;
+}
+footer .back-to-top a{
+    border: 1px solid #fff;
+}
+

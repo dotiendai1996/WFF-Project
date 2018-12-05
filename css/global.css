@@ -1,0 +1,22 @@
+.fl_right{
+    float: right;
+}
+.fl_left{
+    float: left;
+}
+.txt_left{
+    text-align: left;
+}
+.txt_right{
+    text-align: right;
+}
+.txt_center{
+    text-align: center;
+}
+.wp-inner{
+    width: 1170px;
+    margin: 0 auto;
+}
+a{
+    color: #232323;
+}

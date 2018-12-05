@@ -1,0 +1,156 @@
+
+
+.sp-item{
+    position: relative;
+    padding: 22px 10px 52px;
+    background: #e5e5e5;
+    text-align: center;
+    top: 0;
+    z-index: 5;
+    transition: 0.4s;
+}
+.sp-form .col-md-4:nth-child(2n) .sp-item{
+    padding: 22px 20px 52px;
+}
+.sp-item.active{
+    background: #006cd9;
+    top: -75px;
+    padding-bottom: 127px!important;
+
+}
+.sp-item.active h3, .sp-item.active p, .sp-item.active a{
+    color: #fff;
+}
+/*.mission-item-us:hover{
+    background: #006cd9;
+    top: -75px;
+    padding-bottom: 127px!important;
+
+}
+.mission-item-us:hover h3, .mission-item-us:hover p, .mission-item-us:hover a{
+    color: #fff;
+}*/
+.sp-item .thumbnail-circle-img{
+    display: block;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.sp-item .thumbnail-circle-img img{
+    max-width: 100%;
+    height: auto;
+}
+.sp-item h3{
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    margin: 24px 0 45px ;
+}
+/*.sp-item p{
+    font-size: 15px;
+    margin-bottom: 38px;
+    line-height: 18px;
+    color: #fff;
+}*/
+.sp-item a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 16px;
+    text-decoration: underline;
+    color: #666666;
+}
+.sp-item.active a{
+    color: #fff;
+}
+
+
+header{
+    position: static;
+}
+.header-top{
+    background: #222222;
+}
+
+.header-bottom{
+    background: #447fba;
+}
+.header-contact{
+    width: 30%;
+}
+.header-language{
+    width: 70%;
+}
+.header-language a{
+    color: #fff;
+}
+.header-language a span{
+    padding-right: 5px;
+}
+.header-language a.for-agency{
+    background: #1a64ae;
+    padding: 6px 8px;
+    margin-right: 32px;
+}
+ul.main-menu li a{
+    color: #fff;
+}
+
+.form-search{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.logo-right{
+    padding-top: 30px;
+}
+.form-search input{
+    border: none;
+    width: 85%;
+    background: #447fba;
+    border: 1px solid #fff;
+    color: #fff;
+    font-style: italic;
+    font-size: 13px;
+    padding: 2px;
+}
+.form-search button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #447fba;
+    border: 1px solid #fff;
+    padding: 1px;
+}
+.form-search button a {
+    color: #fff;
+    font-size: 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder {
+    color: #fff;
+}
+
+footer{
+    background: #1a64ae;
+
+}
+footer p, footer .back-to-top a span{
+    color: #fff;
+}
+footer .back-to-top a{
+    border: 1px solid #fff;
+}
